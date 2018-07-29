@@ -3,7 +3,7 @@
 ### Dependency
 
 dependencies {<br>
- implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.4'
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.4'`
  <br>
 }
 ![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
