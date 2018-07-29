@@ -37,12 +37,11 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
-
 publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '0.0.3'
+    def publishVersionID = '0.0.4'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'
@@ -50,7 +49,7 @@ publish {
     artifactId = artifactProjectID
     publishVersion = publishVersionID
     desc = 'Librery for add font in your project'
-    website = 'https://github.com/LordSaac/FontLibrery'
+    website = 'https://github.com/LordSaac/FontLibreryJGB'
 
 }
 

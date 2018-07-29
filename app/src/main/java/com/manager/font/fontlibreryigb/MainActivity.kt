@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // load icon using the library
-        JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText("Money \n" + JGBFontAwesomeManager.fontCash)
+        JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText(JGBFontAwesomeManager.fontCash)
         // load icon using inicode
         // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
         JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_one,this).setText("\uF2B9")
