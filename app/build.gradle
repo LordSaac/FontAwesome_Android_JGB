@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.manager.font.fontlibreryigb"
         minSdkVersion 19

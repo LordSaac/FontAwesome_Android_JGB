@@ -27,7 +27,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:28.0.0-beta01'
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
@@ -39,7 +39,7 @@ publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '0.0.4'
+    def publishVersionID = '0.0.5'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'
