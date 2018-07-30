@@ -5,6 +5,8 @@ import android.graphics.Typeface
 import android.widget.EditText
 import android.widget.TextView
 
+
+
 class JGBFontManager {
 
     companion object {
