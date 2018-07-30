@@ -2,8 +2,7 @@ package com.manager.font.fontlibreryigb
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
-import com.manager.font.fontmanager.JGBFontAwesomeManager
+import com.manager.font.fontmanager.JGBFontManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,12 +14,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // load icon using the library
-        JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText(JGBFontAwesomeManager.fontCash)
+        JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText(JGBFontManager.fontCash)
         // load icon using inicode
         // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
-        JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_one,this).setText("\uF2B9")
+        JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_one,this).setText("\uF2B9")
         // load icon using name fonts
-        JGBFontAwesomeManager.setTextViewFontAwesomeBrands(tv_icon_three,this).setText("Camera")
+        JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_three,this).setText("Camera")
 
     }
 }
