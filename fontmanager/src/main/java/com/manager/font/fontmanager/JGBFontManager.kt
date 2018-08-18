@@ -13,11 +13,13 @@ class JGBFontManager {
 
         private val ruteFont: String = "fonts/"
         private val typeFont :String = ".otf"
+        private val typeFontTTF :String = ".ttf"
 
         private val fontAwesomeRegular: String = "Font Awesome 5 Brands-Regular-400"
-        private val fontAwesomeSolid: String = "Font Awesome 5 Free-Regular-400"
-        private val fontAwesomeBrands: String = "Font Awesome 5 Free-Solid-900"
+        private val fontAwesomeSolid: String   =  "Font Awesome 5 Free-Regular-400"
+        private val fontAwesomeBrands: String =  "Font Awesome 5 Free-Solid-900"
 
+        private val fontAwesomeNombar: String = "fa-solid-900"
 
         val fontList: String = "\uF46D"
         val fontDownload:String = "\uF381"
@@ -88,40 +90,12 @@ class JGBFontManager {
             return ruteFont + fontAwesomeRegular + typeFont
         }
 
-
-        fun setEditTextFontAwesomeSolid(edt: EditText, contex: Context):EditText{
-            val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeSolid())
-            edt.setTypeface(typeface)
-            return edt
-        }
-
-        fun setTextViewFontAwesomeSolid(tv: TextView, contex:Context):TextView{
-            val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeSolid())
-            tv.setTypeface(typeface)
-            return tv
-        }
-
-        fun setEditTextFontAwesomeBrands(edt: EditText, contex: Context):EditText{
-            val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeBrands())
-            edt.setTypeface(typeface)
-            return edt
-        }
-
+        @Deprecated(
+                "use TextFontAwesome",
+                replaceWith = ReplaceWith(
+                        "TextView.setTextFontAwesome('')"))
         fun setTextViewFontAwesomeBrands(tv: TextView, contex:Context):TextView{
             val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeBrands())
-            tv.setTypeface(typeface)
-            return tv
-        }
-
-
-        fun setEditTextFontAwesomeRegular(edt: EditText, contex: Context):EditText{
-            val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeRegular())
-            edt.setTypeface(typeface)
-            return edt
-        }
-
-        fun setTextViewFontAwesomeRegular(tv: TextView, contex:Context):TextView{
-            val typeface = Typeface.createFromAsset(contex.assets, getFontAwesomeRegular())
             tv.setTypeface(typeface)
             return tv
         }
