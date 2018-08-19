@@ -1,23 +1,23 @@
- # Font Manager 0.0.5
+ # Font Manager 0.0.6
 
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.5'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.'`
  <br>
 }
 ![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
 
 ### Usage
- load icon using the library
-`JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText(JGBFontManager.fontCash)`
- <br> <br>
- load icon using inicode <br>
-` JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_one,this).setText("\uF2B9")`
- <br>for more icon here: https://fontawesome.com/icons?d=gallery&m=free
- <br> <br>
-  load icon using name fonts<br>
-` JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_three,this).setText("Camera")`
+        load icon using the library
+       `youTextView.setTextFontAwesome(JGBFontManager.fontCash)`
+        load icon using inicode
+         <br>for more icon here: https://fontawesome.com/icons?d=gallery&m=free
+        `yourTextView.setTextFontAwesome("\uF2B9")`
+        load icon using name fonts
+        `Yourswitch.setTextFontAwesome("lightbulb")`
+
+       `YourButton.setTextFontAwesome("brain")`
 ***
 
 
