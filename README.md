@@ -8,17 +8,29 @@ dependencies {<br>
 }
 ![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
 
-### Usage
-        load icon using the library
-       `youTextView.setTextFontAwesome(JGBFontManager.fontCash)`
-        load icon using inicode
-         <br>for more icon here: https://fontawesome.com/icons?d=gallery&m=free
-        `yourTextView.setTextFontAwesome("\uF2B9")`
-        load icon using name fonts
-        `Yourswitch.setTextFontAwesome("lightbulb")`
+### Compatible with:
+ <h4>TextView</h4>
+`yourTextView.setTextFontAwesome("camera")`
 
-       `YourButton.setTextFontAwesome("brain")`
-***
+ <h4>EditText</h4>
+`yourEditText.setTextFontAwesome("user")`
+
+ <h4>Button</h4>
+`yourButton.setTextFontAwesome("android")`
+
+ <h4>Swictht</h4>
+`yourSwich.setTextFontAwesome("anchor")`
+
+ <h4>CheckBoxt</h4>
+`yourCheckBox.setTextFontAwesome("exclamation-circle")`
+
+<h4>ToggleButton</h4>
+`yourToggleButton.setTextFontAwesome("angellist")`
+
+### For More Icons: 
+
+https://fontawesome.com/icons?d=gallery
+
 
 
 ## Licence
