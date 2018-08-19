@@ -10,7 +10,7 @@ dependencies {<br>
 
 ### Compatible with:
  <h4>TextView</h4>
-` yourTextView.setTextFontAwesome("camera")`
+ yourTextView.setTextFontAwesome("camera")
 
  <h4>EditText</h4>
  <a>yourEditText.setTextFontAwesome("user")</a>
@@ -27,8 +27,9 @@ dependencies {<br>
 <h4>ToggleButton</h4>
  yourToggleButton.setTextFontAwesome("angellist")
 
+### For More Icons:
 
-
+https://fontawesome.com/icons?d=gallery
 
 ## Licence
 
