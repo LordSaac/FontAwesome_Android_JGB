@@ -21,7 +21,7 @@ dependencies {<br>
  <h4>Swictht</h4>
  yourSwich.setTextFontAwesome("anchor")
 
- <h4>CheckBoxt</h4>
+ <h4>CheckBox</h4>
  yourCheckBox.setTextFontAwesome("exclamation-circle")
 
 <h4>ToggleButton</h4>
