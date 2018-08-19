@@ -3,33 +3,30 @@
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.6'`
  <br>
 }
 ![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
 
 ### Compatible with:
  <h4>TextView</h4>
-`yourTextView.setTextFontAwesome("camera")`
+` yourTextView.setTextFontAwesome("camera")`
 
  <h4>EditText</h4>
-`yourEditText.setTextFontAwesome("user")`
+ <a>yourEditText.setTextFontAwesome("user")</a>
 
  <h4>Button</h4>
-`yourButton.setTextFontAwesome("android")`
+ yourButton.setTextFontAwesome("android")
 
  <h4>Swictht</h4>
-`yourSwich.setTextFontAwesome("anchor")`
+ yourSwich.setTextFontAwesome("anchor")
 
  <h4>CheckBoxt</h4>
-`yourCheckBox.setTextFontAwesome("exclamation-circle")`
+ yourCheckBox.setTextFontAwesome("exclamation-circle")
 
 <h4>ToggleButton</h4>
-`yourToggleButton.setTextFontAwesome("angellist")`
+ yourToggleButton.setTextFontAwesome("angellist")
 
-### For More Icons: 
-
-https://fontawesome.com/icons?d=gallery
 
 
 
