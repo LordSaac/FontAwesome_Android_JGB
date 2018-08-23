@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
         tv_icon_two.setTextFontAwesome("\uF2B9")
         // load icon using name fonts
         tv_icon_three.setTextFontAwesome("\uF5dc")
-
+        // load icon
         switch1.setTextFontAwesome("lightbulb")
-
+        // load icon
         button.setTextFontAwesome("brain")
 
     }
