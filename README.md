@@ -3,12 +3,13 @@
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.6'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.7'`
  <br>
 }
-![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
 
-### Compatible with:
+![](https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/Screenshot_20180729-140250.png)
+
+### Kotlin Code Compatible with:
  <h4>TextView</h4>
  yourTextView.setTextFontAwesome("camera")
 
