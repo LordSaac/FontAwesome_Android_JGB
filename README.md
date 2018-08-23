@@ -1,25 +1,35 @@
- # Font Manager 0.0.5
+ # Font Manager 0.0.6
 
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.5'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.6'`
  <br>
 }
 ![](https://www.dropbox.com/s/yojht1gja5y8umr/Screenshot_20180729-140250.png?dl=0)
 
-### Usage
- load icon using the library
-`JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_two,this).setText(JGBFontManager.fontCash)`
- <br> <br>
- load icon using inicode <br>
-` JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_one,this).setText("\uF2B9")`
- <br>for more icon here: https://fontawesome.com/icons?d=gallery&m=free
- <br> <br>
-  load icon using name fonts<br>
-` JGBFontManager.setTextViewFontAwesomeBrands(tv_icon_three,this).setText("Camera")`
-***
+### Compatible with:
+ <h4>TextView</h4>
+ yourTextView.setTextFontAwesome("camera")
 
+ <h4>EditText</h4>
+ <a>yourEditText.setTextFontAwesome("user")</a>
+
+ <h4>Button</h4>
+ yourButton.setTextFontAwesome("android")
+
+ <h4>Swictht</h4>
+ yourSwich.setTextFontAwesome("anchor")
+
+ <h4>CheckBox</h4>
+ yourCheckBox.setTextFontAwesome("exclamation-circle")
+
+<h4>ToggleButton</h4>
+ yourToggleButton.setTextFontAwesome("angellist")
+
+### For More Icons:
+
+https://fontawesome.com/icons?d=gallery
 
 ## Licence
 
