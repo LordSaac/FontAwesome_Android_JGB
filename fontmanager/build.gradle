@@ -4,7 +4,7 @@ apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'maven-publish'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 19
@@ -39,7 +39,7 @@ publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '0.0.5'
+    def publishVersionID = '0.0.8'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'

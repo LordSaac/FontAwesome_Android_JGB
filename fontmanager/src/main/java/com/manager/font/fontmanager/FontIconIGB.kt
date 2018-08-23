@@ -3,7 +3,7 @@ package com.manager.font.fontmanager
 import android.graphics.Typeface
 import android.widget.*
 
-;
+
 fun EditText.setTextFontAwesome(font: String){
 
     val context = this.context.applicationContext
