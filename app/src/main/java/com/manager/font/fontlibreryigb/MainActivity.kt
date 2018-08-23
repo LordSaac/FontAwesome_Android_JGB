@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //<For Kotlin>
         // load icon using the library
         tv_icon_one.setTextFontAwesome(JGBFontManager.fontCash)
         // load icon using inicode
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
         switch1.setTextFontAwesome("lightbulb")
         // load icon
         button.setTextFontAwesome("brain")
+
+        //<For Java>
+
+        FontIconIGB.setButtonFontAwesome("brain",button)
 
     }
 }
