@@ -39,7 +39,7 @@ publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '0.0.8'
+    def publishVersionID = '0.0.7'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'

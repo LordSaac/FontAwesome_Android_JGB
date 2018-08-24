@@ -9,57 +9,61 @@ class FontIconIGB{
 
     companion object {
 
-        fun setEditFontAwesome(font: String, edit:EditText){
+        fun setTextEditFontAwesome_Edit_Text(edit:EditText): EditText{
 
             val context = edit.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             edit.setTypeface(typeface)
-            edit.setText(font)
 
+            return edit
         }
 
-        fun setViewFontAwesome(font: String, text: TextView){
+        fun setTextFontAwesome_Text_View(text: TextView): TextView{
 
             val context = text.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             text.setTypeface(typeface)
-            text.setText(font)
+
+            return  text
 
         }
 
-        fun setButtonFontAwesome(font: String, btn: Button){
+        fun setTextFontAwesome_Button(btn: Button): Button{
 
             val context = btn.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             btn.setTypeface(typeface)
-            btn.setText(font)
 
+            return btn
         }
 
-        fun setSwitchFontAwesome(font: String, swt: Switch){
+        fun setTextSwitchFontAwesome_Switch(swt: Switch):Switch{
 
             val context = swt.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             swt.setTypeface(typeface)
-            swt.setText(font)
+
+            return swt
 
         }
 
-        fun setCheckBoxFontAwesome(font: String, cb:CheckBox){
+        fun setTextCheckBoxFontAwesome_CheckBox(cb:CheckBox): CheckBox{
 
             val context = cb.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             cb.setTypeface(typeface)
-            cb.setText(font)
+
+            return cb
 
         }
 
-        fun setToggleButtonFontAwesome(font: String,tgb:ToggleButton){
+        fun setToggleButtonFontAwesome_ToggleButton(tgb:ToggleButton):ToggleButton{
 
             val context = tgb.context.applicationContext
             val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
             tgb.setTypeface(typeface)
-            tgb.setText(font)
+
+            return tgb
 
         }
 

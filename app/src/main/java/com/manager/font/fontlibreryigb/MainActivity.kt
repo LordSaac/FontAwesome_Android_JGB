@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         //<For Java>
 
-        FontIconIGB.setButtonFontAwesome("brain",button)
+        FontIconIGB.setTextFontAwesome_Button(button).setText("user")
 
     }
 }

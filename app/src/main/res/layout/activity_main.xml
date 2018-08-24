@@ -80,6 +80,16 @@
                 android:textColor="@android:color/background_light"
                 android:textSize="30sp" />
 
+            <com.manager.font.fontmanager.ext.FontAwesomeButton
+
+                android:id="@+id/Button2"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:includeFontPadding="false"
+                android:text="user"
+                android:textSize="30sp"
+                app:fontawesome="user" />
+
         </LinearLayout>
     </ScrollView>
 
