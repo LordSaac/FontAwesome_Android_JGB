@@ -1,9 +1,9 @@
- # Font Manager 0.0.6
+ # Font Manager 0.0.8
 
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.7'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.8'`
  <br>
 }
 
@@ -28,6 +28,51 @@ dependencies {<br>
 <h4>ToggleButton</h4>
  yourToggleButton.setTextFontAwesome("angellist")
 
+
+### Java Code Compatible with:
+ <h4>TextView</h4>
+  FontIconIGB.setTextFontAwesome_Text_View(yourTextView).setText("user")
+
+ <h4>EditText</h4>
+  FontIconIGB.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
+
+ <h4>Button</h4>
+  FontIconIGB.setTextEditFontAwesome_Edit_Text(yourButton).setText("user")
+
+ <h4>Swictht</h4>
+  FontIconIGB.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
+
+ <h4>CheckBox</h4>
+  FontIconIGB.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
+
+<h4>ToggleButton</h4>
+  FontIconIGB.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
+  
+### XML Button & TextView:
+Write the name font in text
+
+    <com.manager.font.fontmanager.ext.FontAwesomeButton
+
+                android:id="@+id/Button2"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:includeFontPadding="false"
+                android:text="user"
+                android:textSize="30sp"
+                app:fontawesome="user" />
+
+
+    <com.manager.font.fontmanager.ext.FontAwesomeTextView
+
+                android:id="@+id/textEdit"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:includeFontPadding="false"
+                android:text="bomb" 
+                android:textSize="40sp"
+                app:fontawesome="user" />
+                
+                
 ### For More Icons:
 
 https://fontawesome.com/icons?d=gallery
