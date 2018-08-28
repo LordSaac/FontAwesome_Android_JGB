@@ -7,7 +7,7 @@ dependencies {<br>
  <br>
 }
 
-![](https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/Screenshot_20180729-140250.png)
+<img src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png">
 
 ### Kotlin Code Compatible with:
  <h4>TextView</h4>
