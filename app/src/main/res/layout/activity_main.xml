@@ -90,6 +90,17 @@
                 android:textSize="30sp"
                 app:fontawesome="user" />
 
+
+            <com.manager.font.fontmanager.ext.FontAwesomeTextView
+
+                android:id="@+id/textEdit"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:includeFontPadding="false"
+                android:text="brain"
+                android:textSize="40sp"
+                app:fontawesome="user" />
+
         </LinearLayout>
     </ScrollView>
 
