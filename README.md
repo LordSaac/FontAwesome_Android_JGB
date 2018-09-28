@@ -76,6 +76,18 @@ Write the name font in text
 ### For More Icons:
 
 https://fontawesome.com/icons?d=gallery
+Released August 28, 2018
+
+Religion Category Pack
+All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
+More Business Icons Added
+It's Business Time thanks to these 105 boardroom-friendly additions. Sorry, washroom-executive didn't make the cut.
+Marketing Category Pack
+Use these 93 icons to help your conversion rate, retain your customers, and create fun campaigns.
+More Math Icons Added
+You can never have enough mathematics. We hope these 57 never-derivative new icons help you crunch those numbers.
+More Status Icons Added
+We've added more states and options to our volume, wifi, and status icons. Can you hear us now? Okay, good!
 
 ## Licence
 
