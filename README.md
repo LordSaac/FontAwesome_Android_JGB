@@ -75,8 +75,10 @@ Write the name font in text
                 
 ### For More Icons:
 
-https://fontawesome.com/icons?d=gallery
-Released August 28, 2018
+Here: https://fontawesome.com/icons?d=gallery
+
+<br>
+<h2>FontAwesome Released August 28, 2018</h2>
 
 Religion Category Pack
 All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
