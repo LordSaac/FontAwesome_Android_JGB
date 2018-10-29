@@ -31,22 +31,22 @@ dependencies {<br>
 
 ### Java Code Compatible with:
  <h4>TextView</h4>
-  FontIconIGB.setTextFontAwesome_Text_View(yourTextView).setText("user")
+  FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
 
  <h4>EditText</h4>
-  FontIconIGB.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
+  FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
 
  <h4>Button</h4>
-  FontIconIGB.setTextEditFontAwesome_Edit_Text(yourButton).setText("user")
+  FontIconIGB.Companion.setTextEditFontAwesome_Button(yourButton).setText("user")
 
  <h4>Swictht</h4>
-  FontIconIGB.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
+  FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
 
  <h4>CheckBox</h4>
-  FontIconIGB.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
+  FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
 
 <h4>ToggleButton</h4>
-  FontIconIGB.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
+  FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
   
 ### XML Button & TextView:
 Write the name font in text
