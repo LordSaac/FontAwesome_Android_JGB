@@ -3,6 +3,8 @@ package com.manager.font.fontmanager
 import android.graphics.Typeface
 import android.widget.*
 
+//Created by jGutierrez 'LordIsaac'
+// Date 2018
 
 //<For Java>
 class FontIconIGB{

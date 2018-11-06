@@ -66,8 +66,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="25dp"
-                android:text="Switch"
-                android:textSize="24sp"
+                android:text="snowflake"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="30sp"
                 tools:layout_editor_absoluteX="105dp"
                 tools:layout_editor_absoluteY="325dp" />
 
@@ -83,12 +84,13 @@
             <com.manager.font.fontmanager.ext.FontAwesomeButton
 
                 android:id="@+id/Button2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
                 android:includeFontPadding="false"
-                android:text="user"
+                android:text="temperature-low"
+                android:textColor="@color/colorAccent"
                 android:textSize="30sp"
-                app:fontawesome="user" />
+                app:fontawesome="temperature-low" />
 
 
             <com.manager.font.fontmanager.ext.FontAwesomeTextView

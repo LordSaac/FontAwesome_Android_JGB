@@ -2,10 +2,11 @@ package com.manager.font.fontmanager
 
 import android.content.Context
 import android.graphics.Typeface
-import android.widget.EditText
 import android.widget.TextView
 
 
+//Created by jGutierrez 'LordIsaac'
+// Date 2018
 
 class JGBFontManager {
 
