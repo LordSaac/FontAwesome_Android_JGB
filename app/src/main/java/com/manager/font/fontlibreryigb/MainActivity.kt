@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
         tv_icon_two.setTextFontAwesome("\uF2B9")
         // load icon using name fonts
-        tv_icon_three.setTextFontAwesome("\uF5dc")
+        tv_icon_three.setTextFontAwesome("snowman")
         // load icon
         switch1.setTextFontAwesome("snowflake")
         // load icon
