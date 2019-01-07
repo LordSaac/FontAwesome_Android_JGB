@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'maven-publish'
-
+//gradlew clean build bintrayUpload -PbintrayUser=<юзернейм на bintray> -PbintrayKey=<api ключ с bintray> -PdryRun=false
 android {
     compileSdkVersion 28
 
