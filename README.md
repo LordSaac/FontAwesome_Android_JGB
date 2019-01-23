@@ -1,9 +1,9 @@
- # Font Manager 0.0.9
+ # Font Manager 1.0.0
 
 ### Dependency
 
 dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:0.0.9'`
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.0'`
  <br>
 }
 
@@ -78,7 +78,7 @@ Write the name font in text
 Here: https://fontawesome.com/icons?d=gallery
 
 <br>
-<h2>FontAwesome Released November 2, 2018</h2>
+<h2>FontAwesome Released December 20, 2018</h2>
 
 Religion Category Pack
 All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
