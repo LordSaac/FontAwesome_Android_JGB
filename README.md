@@ -70,20 +70,6 @@ Write the name font in text
 
 Here: https://fontawesome.com/icons?d=gallery
 
-<br>
-<h2>FontAwesome Released February 2, 2019</h2>
-
-Religion Category Pack
-All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
-More Business Icons Added
-It's Business Time thanks to these 105 boardroom-friendly additions. Sorry, washroom-executive didn't make the cut.
-Marketing Category Pack
-Use these 93 icons to help your conversion rate, retain your customers, and create fun campaigns.
-More Math Icons Added
-You can never have enough mathematics. We hope these 57 never-derivative new icons help you crunch those numbers.
-More Status Icons Added
-We've added more states and options to our volume, wifi, and status icons. Can you hear us now? Okay, good!
-
 ### Dependency:
 
 dependencies {
@@ -98,6 +84,20 @@ dependencies {
 :star: Or you could give a star [Here](https://github.com/LordSaac/FontAwesome_Android_JGB)
 <br>
 :raised_hands: Thanks! 
+
+
+<h2>FontAwesome Released February 2, 2019</h2>
+
+Religion Category Pack
+All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
+More Business Icons Added
+It's Business Time thanks to these 105 boardroom-friendly additions. Sorry, washroom-executive didn't make the cut.
+Marketing Category Pack
+Use these 93 icons to help your conversion rate, retain your customers, and create fun campaigns.
+More Math Icons Added
+You can never have enough mathematics. We hope these 57 never-derivative new icons help you crunch those numbers.
+More Status Icons Added
+We've added more states and options to our volume, wifi, and status icons. Can you hear us now? Okay, good!
 
 
 ## Licence
