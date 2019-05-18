@@ -1,12 +1,5 @@
  # Font Manager 1.0.1
 
-### Dependency
-
-dependencies {<br>
-` implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.1'`
- <br>
-}
-
 <img src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png">
 
 ### Kotlin Code Compatible with:
@@ -90,6 +83,20 @@ More Math Icons Added
 You can never have enough mathematics. We hope these 57 never-derivative new icons help you crunch those numbers.
 More Status Icons Added
 We've added more states and options to our volume, wifi, and status icons. Can you hear us now? Okay, good!
+
+### Dependency:
+
+dependencies {
+<br>
+` implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.1'`
+ <br>
+}
+<br>
+:coffee: Oh, amazing, I buy you a coffee:  https://paypal.me/LordSaac?locale.x=es_XC
+<br>
+:star:	  Or you could give a star
+<br>
+:raised_hands: Thanks! 
 
 ## Licence
 
