@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
         // load icon using name fonts
         tv_icon_three.setTextFontAwesome("biohazard")
         // load icon
-        switch1.setTextFontAwesome("snowflake")
+        switch1.setTextFontAwesome("baby")
         // load icon
         button.setTextFontAwesome("dumpster-fire")
-
         /*
+
         Todo 'Java Code Compatible with'
         TextView
         FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")

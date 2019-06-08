@@ -92,6 +92,17 @@
                 android:textSize="30sp"
                 app:fontawesome="temperature-low" />
 
+            <com.manager.font.fontmanager.ext.FontAwesomeTextView
+
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:includeFontPadding="false"
+                android:text=""
+                android:textColor="@color/colorLink"
+                android:textSize="40sp"
+                app:fontawesome="user" />
+
 
             <com.manager.font.fontmanager.ext.FontAwesomeTextView
 
@@ -99,7 +110,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
                 android:includeFontPadding="false"
-                android:text="brain"
+                android:text="feather-alt"
                 android:textSize="40sp"
                 app:fontawesome="user" />
 
