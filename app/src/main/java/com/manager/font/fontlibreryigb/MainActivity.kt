@@ -20,13 +20,13 @@ class MainActivity : AppCompatActivity() {
         tv_icon_one.setTextFontAwesome(JGBFontManager.fontCash)
         // load icon using inicode
         // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
-        tv_icon_two.setTextFontAwesome("\uF2B9")
+        tv_icon_two.setTextFontAwesome("\uf7c6")
         // load icon using name fonts
-        tv_icon_three.setTextFontAwesome("biohazard")
+        tv_icon_three.setTextFontAwesome("beer")
         // load icon
-        switch1.setTextFontAwesome("baby")
+        switch1.setTextFontAwesome("angry")
         // load icon
-        button.setTextFontAwesome("dumpster-fire")
+        button.setTextFontAwesome("award")
         /*
 
         Todo 'Java Code Compatible with'

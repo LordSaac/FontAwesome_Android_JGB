@@ -2,14 +2,14 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'maven-publish'
-//gradlew clean build bintrayUpload -PbintrayUser=<юзернейм на bintray> -PbintrayKey=<api ключ с bintray> -PdryRun=false
+//gradlew clean build bintrayUpload -PbintrayUser='linkinzel1' -PbintrayKey='f326dbc498bf21ae6efb63278e8f112569ce1963' -PdryRun=false
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
@@ -32,7 +32,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation 'android.arch.work:work-runtime:1.0.0-beta02'
+    implementation 'android.arch.work:work-runtime:1.0.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
@@ -40,7 +40,7 @@ publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '1.0.1'
+    def publishVersionID = '1.0.2'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'
