@@ -1,4 +1,4 @@
- # Font Manager 1.0.2
+ # Font Manager 1.0.3
 
 <img src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png">
 
@@ -74,7 +74,7 @@ Here: https://fontawesome.com/icons?d=gallery
 
 dependencies {
 <br>
-`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.2'`
+`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.3'`
  <br>
 }
 <br>
@@ -86,7 +86,7 @@ dependencies {
 :raised_hands: Thanks! 
 
 
-<h2>FontAwesome Released June 10, 2019</h2>
+<h2>FontAwesome Released September 10, 2019</h2>
 
 Religion Category Pack
 All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
