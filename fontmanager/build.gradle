@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'maven-publish'
-//gradlew clean build bintrayUpload -PbintrayUser='linkinzel1' -PbintrayKey='f326dbc498bf21ae6efb63278e8f112569ce1963' -PdryRun=false
 
 android {
     compileSdkVersion 29
@@ -40,7 +39,7 @@ publish {
 
     def groupProjectID = 'com.manager.font.fontlibreryigb'
     def artifactProjectID = 'fontmanager'
-    def publishVersionID = '1.0.2'
+    def publishVersionID = '1.0.3'
 
     userOrg = 'linkinzel1'
     repoName = 'FontManager'
