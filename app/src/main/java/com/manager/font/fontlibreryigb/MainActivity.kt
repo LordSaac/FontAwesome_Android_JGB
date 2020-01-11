@@ -20,16 +20,16 @@ class MainActivity : AppCompatActivity() {
         tv_icon_one.setTextFontAwesome(JGBFontManager.fontCash)
         // load icon using inicode
         // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
-        tv_icon_two.setTextFontAwesome("\uf7c6")
+        tv_icon_two.setTextFontAwesome("\uF6E8")
         // load icon using name fonts
-        tv_icon_three.setTextFontAwesome("beer")
+        tv_icon_three.setTextFontAwesome("dragon")
         // load icon
-        switch1.setTextFontAwesome("angry")
+        switch1.setTextFontAwesome("charging-station")
         // load icon
-        button.setTextFontAwesome("award")
+        button.setTextFontAwesome("avianex")
         /*
 
-        Todo 'Java Code Compatible with'
+        Todo 'Java Code'
         TextView
         FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
         EditText

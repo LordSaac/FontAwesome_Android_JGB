@@ -95,7 +95,7 @@ fun TextView.setTextFontAwesome(font: String){
 fun Button.setTextFontAwesome(font: String){
 
     val context = this.context.applicationContext
-    val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeBrands())
+    val typeface = Typeface.createFromAsset(context.assets, JGBFontManager.getFontAwesomeRegular())
     this.setTypeface(typeface)
     this.setText(font)
 
