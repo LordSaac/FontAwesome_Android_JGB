@@ -79,6 +79,12 @@ class JGBFontManager {
         val fontPrint = "\uF02f"
         val FontUs = "\uF007"
 
+
+         enum class FAwesomeType {
+            REGULAR, SOLID, BRANDS
+        }
+
+
         fun getFontAwesomeBrands():String{
             return ruteFont + fontAwesomeBrands + typeFont
         }
@@ -89,6 +95,16 @@ class JGBFontManager {
 
         fun getFontAwesomeRegular():String{
             return ruteFont + fontAwesomeRegular + typeFont
+        }
+
+        fun getTypeFontAwesome(type:FAwesomeType):String{
+            when (type) {
+                FAwesomeType.SOLID -> return getFontAwesomeSolid()
+                FAwesomeType.BRANDS -> return  getFontAwesomeBrands()
+                else -> {
+                  return getFontAwesomeRegular()
+                }
+            }
         }
 
         @Deprecated(

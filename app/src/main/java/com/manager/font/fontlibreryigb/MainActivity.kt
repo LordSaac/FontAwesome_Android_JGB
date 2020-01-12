@@ -16,33 +16,44 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //Todo 'Kotlin Code Compatible with'
-        // load icon using the library
-        tv_icon_one.setTextFontAwesome(JGBFontManager.fontCash)
-        // load icon using inicode
-        // for more icon here: https://fontawesome.com/icons?d=gallery&m=free
-        tv_icon_two.setTextFontAwesome("\uF6E8")
-        // load icon using name fonts
-        tv_icon_three.setTextFontAwesome("dragon")
-        // load icon
-        switch1.setTextFontAwesome("charging-station")
-        // load icon
-        button.setTextFontAwesome("avianex")
-        /*
 
+
+
+        //TODO load icon SIMPLE
+        tv_icon_three.setTextFontAwesome("d-and-d")
+
+        //TODO load icon SIMPLE
+        switch1.setTextFontAwesome("charging-station")
+
+        //TODO load icon SIMPLE
+        button.setTextFontAwesome("avianex")
+
+
+         //** READ ME IMPORTANT **
+        //TODO IF ICON NOT LOAD, TRY WITH SET TYPE
+        //TODO TYPE: BRANDS,REGULAR,SOLID.
+
+        //TODO load icon with TYPE FONT
+        tv_icon_one.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
+
+        //TODO load icon with TYPE FONT
+        tv_icon_two.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
+
+
+        /*
         Todo 'Java Code'
         TextView
-        FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
+        FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
         EditText
         FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
         Button
         FontIconIGB.Companion.setTextEditFontAwesome_Button(yourButton).setText("user")
-        Swictht
         FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
         CheckBox
         FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
+        Swictht
         ToggleButton
         FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
         */
-
     }
 }
