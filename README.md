@@ -1,5 +1,6 @@
  # Font Manager 1.0.4
 
+## Example
 <img height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
 
 ### Kotlin Code Compatible with:
@@ -84,7 +85,7 @@ Here: https://fontawesome.com/icons?d=gallery
 
 dependencies {
 <br>
-`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.3'`
+`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.4'`
  <br>
 }
 <br>
