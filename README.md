@@ -1,6 +1,9 @@
- # Font Manager 1.0.4
+ <h1 align="center"> Font Manager 1.0.4 </h1>
+ 
+ <p>Library for add icons using Font Awesome font in your project Android. Compatible for Java and Kotlin.</p>
 
 ## Example
+
 <img height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
 
 ### Kotlin Code Compatible with:
@@ -47,6 +50,7 @@
  <h4>CheckBox</h4>
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+
 
 <h4>ToggleButton</h4>
 FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
