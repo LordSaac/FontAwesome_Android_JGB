@@ -2,17 +2,20 @@
  
  <p>Library for add icons using Font Awesome font in your project Android. Compatible for Java and Kotlin.</p>
 
-## Example
+## Examples:
 
-<img height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
+<center>
+<img align="center" height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
+</center>
 
-### Kotlin Code Compatible with:
+ <h2> Kotlin Code </h2>
+ 
  <h4>TextView</h4>
  yourTextView.setTextFontAwesome("camera")
  yourTextView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
 
  <h4>EditText</h4>
- <a>yourEditText.setTextFontAwesome("user")</a>
+
  yourEditView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
  yourEditView.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
  
