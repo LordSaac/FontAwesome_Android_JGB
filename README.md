@@ -1,4 +1,4 @@
- <h1 align="center"> Font Manager 1.0.4 </h1>
+ <h1 align="center"> FontAwesome Manager 1.0.4 </h1>
  
  <p>Library for add icons using Font Awesome font in your project Android. Compatible for Java and Kotlin.</p>
 
