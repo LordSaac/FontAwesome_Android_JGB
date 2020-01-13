@@ -7,7 +7,7 @@
 <center>
 <img align="center" height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
 </center>
-
+ <br>
  <h2> Kotlin Code </h2>
  
  <h4>TextView</h4>
@@ -34,8 +34,8 @@
 <h4>ToggleButton</h4>
  yourToggleButton.setTextFontAwesome("angellist")
  yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-
-### Java Code Compatible with:
+ <br>
+<h2> Java Code </h2>
  <h4>TextView</h4>
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
