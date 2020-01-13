@@ -1,46 +1,56 @@
  # Font Manager 1.0.4
 
-<img src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png">
+<img height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
 
 ### Kotlin Code Compatible with:
  <h4>TextView</h4>
  yourTextView.setTextFontAwesome("camera")
+ yourTextView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
 
  <h4>EditText</h4>
  <a>yourEditText.setTextFontAwesome("user")</a>
-
+ yourEditView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
+ yourEditView.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
+ 
  <h4>Button</h4>
  yourButton.setTextFontAwesome("android")
+ yourButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
 
  <h4>Swictht</h4>
  yourSwich.setTextFontAwesome("anchor")
+ yourSwich.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
 
  <h4>CheckBox</h4>
  yourCheckBox.setTextFontAwesome("exclamation-circle")
-
+ yourCheckBox.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
+ 
 <h4>ToggleButton</h4>
  yourToggleButton.setTextFontAwesome("angellist")
-
+ yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
 
 ### Java Code Compatible with:
  <h4>TextView</h4>
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
-
+  FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
  <h4>EditText</h4>
   FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
-
+ FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
  <h4>Button</h4>
   FontIconIGB.Companion.setTextEditFontAwesome_Button(yourButton).setText("user")
+  FontIconIGB.Companion.setTextEditFontAwesome_Button(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
 
  <h4>Swictht</h4>
   FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
-
+   FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+   
  <h4>CheckBox</h4>
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
+  FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
 
 <h4>ToggleButton</h4>
-  FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
-  
+FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
+        FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+
 ### XML Button & TextView:
 Write the name font in text
 
@@ -86,7 +96,7 @@ dependencies {
 :raised_hands: Thanks! 
 
 
-<h2>FontAwesome Released January 11, 2020</h2>
+<h2>FontAwesome Released January 12, 2020</h2>
 
 Religion Category Pack
 All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
