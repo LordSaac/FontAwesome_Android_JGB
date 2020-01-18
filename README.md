@@ -11,54 +11,67 @@
  <h2> Kotlin Code </h2>
  
  <h4>TextView</h4>
+ <code>
  yourTextView.setTextFontAwesome("camera")
  yourTextView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
-
+</code>
  <h4>EditText</h4>
-
+ <code>
  yourEditView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
  yourEditView.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
- 
+  </code>
  <h4>Button</h4>
+  <code>
  yourButton.setTextFontAwesome("android")
  yourButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-
+ </code>
  <h4>Swictht</h4>
+  <code>
  yourSwich.setTextFontAwesome("anchor")
  yourSwich.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-
+ </code>
  <h4>CheckBox</h4>
+  <code>
  yourCheckBox.setTextFontAwesome("exclamation-circle")
  yourCheckBox.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
- 
+  </code>
 <h4>ToggleButton</h4>
+ <code>
  yourToggleButton.setTextFontAwesome("angellist")
  yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
+  </code>
  <br>
 <h2> Java Code </h2>
  <h4>TextView</h4>
+  <code>
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+  </code>
  <h4>EditText</h4>
+  <code>
   FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
  FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+  </code>
  <h4>Button</h4>
+  <code>
   FontIconIGB.Companion.setTextEditFontAwesome_Button(yourButton).setText("user")
   FontIconIGB.Companion.setTextEditFontAwesome_Button(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-
+ </code>
  <h4>Swictht</h4>
+  <code>
   FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
    FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-   
+    </code>
  <h4>CheckBox</h4>
+  <code>
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-
+ </code>
 
 <h4>ToggleButton</h4>
-FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))
-        FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-
+ <code>
+   FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))           FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
+ </code>
 ### XML Button & TextView:
 Write the name font in text
 
