@@ -12,7 +12,7 @@
 
 </div>
  <br>
- <h2> Kotlin Code </h2>
+ <h2 align="center"> Kotlin Code </h2>
  
  <h4>TextView</h4>
  <code>
@@ -45,7 +45,7 @@
  yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
   </code>
  <br>
-<h2> Java Code </h2>
+<h2 align="center"> Java Code </h2>
  <h4>TextView</h4>
   <code>
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
