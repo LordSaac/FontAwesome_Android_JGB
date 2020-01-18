@@ -4,9 +4,13 @@
 
 ## Examples:
 
-<center>
-<img align="center" height="300" width="150" src="https://github.com/LordSaac/FontLibreryJGB/blob/master/app/src/main/res/drawable/screen.png"> 
-</center>
+<div align="center">
+
+ 
+ <img align="center" height="300" width="150" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/android.PNG"> 
+ 
+
+</div>
  <br>
  <h2> Kotlin Code </h2>
  
