@@ -76,6 +76,7 @@
  <code>
    FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))           FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
  </code>
+ 
 ### XML Button & TextView:
 Write the name font in text
 
