@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         tv_icon_three.setTextFontAwesome("d-and-d")
 
         //TODO load icon SIMPLE
-        switch1.setTextFontAwesome("charging-station")
+        switch1.setTextFontAwesome("anchor")
 
         //TODO load icon SIMPLE
-        button.setTextFontAwesome("avianex")
+        button.setTextFontAwesome("angellist")
 
 
          //** READ ME IMPORTANT **
@@ -34,10 +34,10 @@ class MainActivity : AppCompatActivity() {
         //TODO TYPE: BRANDS,REGULAR,SOLID.
 
         //TODO load icon with TYPE FONT
-        tv_icon_one.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
+        tv_icon_one.setTextFontAwesome("creative-commons-sa",JGBFontManager.Companion.FAwesomeType.REGULAR)
 
         //TODO load icon with TYPE FONT
-        tv_icon_two.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
+        tv_icon_two.setTextFontAwesome("allergies",JGBFontManager.Companion.FAwesomeType.BRANDS)
 
 
         /*

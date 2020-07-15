@@ -20,6 +20,7 @@ class JGBFontManager {
         private val fontAwesomeSolid: String   =  "Font Awesome 5 Free-Regular-400"
         private val fontAwesomeBrands: String =  "Font Awesome 5 Free-Solid-900"
 
+
         private val fontAwesomeNombar: String = "fa-solid-900"
 
         val fontList: String = "\uF46D"
