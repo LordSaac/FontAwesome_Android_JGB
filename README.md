@@ -1,18 +1,25 @@
  <h1 align="left"> FontAwesome Manager 1.0.5 </h1>
  
- <p>Library for add icons using Font Awesome font in your project Android. Compatible for Java and Kotlin.</p>
+ <p>Easy library for add icons using FontAwesome fonts in your Android project</p>
 
-## Examples:
+## Example:
 
 <div align="center">
 
- 
- <img align="center" height="300" width="150" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/android.PNG"> 
+
+
+
+<p align="center">
+
+|Int Top|In Bottom|
+|:----:|:----:|
+|<img  height="568" width="320" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/android.PNG">|<img  height="568" width="320" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/file2.png">|
+</p>
  
 
 </div>
  <br>
- <h2 align="center"> Kotlin Code </h2>
+ <h1 align="left"> Kotlin Code </h1>
  
  <h4>TextView</h4>
  <code>
@@ -44,8 +51,8 @@
  yourToggleButton.setTextFontAwesome("angellist")
  yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
   </code>
- <br>
-<h2 align="center"> Java Code </h2>
+ <br> <br> <br>
+<h1 align="left"> Java Code </h1>
  <h4>TextView</h4>
   <code>
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
@@ -77,7 +84,7 @@
    FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))           FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
  </code>
  
-### XML Button & TextView:
+## XML Button & TextView:
 Write the name font in text
 
     <com.manager.font.fontmanager.ext.FontAwesomeButton
@@ -104,13 +111,13 @@ Write the name font in text
                 
 ### For More Icons:
 
-Here: https://fontawesome.com/icons?d=gallery
+See more icon here: https://fontawesome.com/icons?d=gallery
 
 ### Dependency:
 
 dependencies {
 <br>
-`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.4'`
+`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.5'`
  <br>
 }
 <br>
