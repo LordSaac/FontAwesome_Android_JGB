@@ -11,7 +11,7 @@
 
 <p align="center">
 
-|Int Top|In Bottom|
+|Sample 1|Sample 2|
 |:----:|:----:|
 |<img  height="568" width="320" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/android.PNG">|<img  height="568" width="320" src="https://github.com/LordSaac/FontAwesome_Android_JGB/blob/master/app/src/main/res/drawable/file2.png">|
 </p>
