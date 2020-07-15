@@ -1,4 +1,4 @@
- <h1 align="center"> FontAwesome Manager 1.0.4 </h1>
+ <h1 align="left"> FontAwesome Manager 1.0.5 </h1>
  
  <p>Library for add icons using Font Awesome font in your project Android. Compatible for Java and Kotlin.</p>
 
@@ -122,7 +122,7 @@ dependencies {
 :raised_hands: Thanks! 
 
 
-<h2>FontAwesome Released January 12, 2020</h2>
+<h2>FontAwesome Released June 18, 2020</h2>
 
 Religion Category Pack
 All the major religions of the world (and then some) are represented by these 90 icons in this long-awaited category.
