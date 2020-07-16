@@ -108,7 +108,7 @@ Write the name font in text
 
 See more icon here: https://fontawesome.com/icons?d=gallery
 
-### Dependency:
+# Gradle:
 
 dependencies {
 
