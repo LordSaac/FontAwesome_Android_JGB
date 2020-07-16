@@ -1,4 +1,4 @@
- <h1 align="left"> FontAwesome Manager 1.0.5 </h1>
+ <h1 align="left"> FontAwesome Manager </h1>
  
  <p>Easy library for add icons using FontAwesome fonts in your Android project.</p>
 
@@ -117,9 +117,9 @@ dependencies {
 }
 <br>
 <br>
-:coffee: Oh, amazing, I buy you a coffee [Here](https://paypal.me/LordSaac?locale.x=es_XC)
+:coffee: Oh, amazing, I buy you a [coffee](https://paypal.me/LordSaac?locale.x=es_XC)
 <br>
-:star: Or you could give a star [Here](https://github.com/LordSaac/FontAwesome_Android_JGB)
+:star: Do you like library, give it a [star](https://github.com/LordSaac/ProgressLottieIGB)
 <br>
 :raised_hands: Thanks! 
 
