@@ -4,17 +4,18 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'maven-publish'
 apply plugin: 'idea'
 apply plugin: 'maven'
-
+apply plugin: 'com.jfrog.bintray'
 group = 'com.github.LordSaac'
 
 buildscript {
     repositories {
         jcenter()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
     dependencies {
 
-
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.+'
     }
 }
 
@@ -33,7 +34,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0.9"
+        versionName "1.1.0"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -48,6 +49,8 @@ android {
 
 }
 
+
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
 
@@ -57,4 +60,124 @@ dependencies {
     implementation 'android.arch.work:work-runtime:1.0.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:support-annotations:28.0.0'
+}
+
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.kotlin.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.kotlin.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+tasks.withType(Javadoc).all {
+    enabled = false
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+
+}
+
+
+bintray {
+    user = 'linkinzel1'//System enviroment variable
+    key = ''
+    logger.log(LogLevel.ERROR, "user:" + user + " key:" + key)
+    publications = ['MyPublication']
+    //configurations = ['archives']
+    pkg {
+        repo = 'FontManager'
+        name = 'fontmanager'
+        //        userOrg = 'bintray_user'
+        licenses = ['Apache-2.0']
+        websiteUrl = 'https://github.com/LordSaac/ProgressLottieIGB'
+        issueTrackerUrl = 'https://github.com/LordSaac/ProgressLottieIGB/issues'
+        vcsUrl = 'https://github.com/LordSaac/ProgressLottieIGB.git'
+        publicDownloadNumbers = true
+
+        //        githubRepo = 'linjonh/MvpArch' //Optional Github repository
+        //        githubReleaseNotesFile = 'README.md' //Optional Github readme file
+
+        publish = true
+        version {
+            name = android.defaultConfig.versionName
+            desc = 'Library for add font in your project'
+            released = new Date()
+            vcsTag = android.defaultConfig.versionName
+            attributes = ['gradle-plugin': 'com.use.less:com.use.less.gradle:gradle-useless-plugin']
+        }
+    }
+}
+
+def pomConfig = {
+    licenses {
+        license {
+            name "The Apache Software License, Version 2.0"
+            url "http://www.apache.org/licenses/LICENSE-2.0.txt"
+            distribution "repo"
+        }
+    }
+    developers {
+        developer {
+            id "lordsaac"
+            name "Isaac Banda"
+            email "jose19.26@hotmail.com"
+        }
+    }
+
+    scm {
+        url "https://github.com/LordSaac"
+    }
+}
+
+publishing {
+    publications {
+        MyPublication(MavenPublication) {
+
+            artifact sourcesJar
+            //artifact javadocJar
+            artifact("$buildDir/outputs/aar/fontmanager-release.aar")
+            groupId 'com.manager.font.fontlibreryigb'
+            artifactId 'fontmanager'
+            version android.defaultConfig.versionName
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                def root = asNode()
+                root.appendNode('description', 'Library for add font in your project')
+                root.appendNode('name', 'fontmanager')
+                root.appendNode('url', 'https://github.com/LordSaac/FontLibreryJGB')
+                root.children().last() + pomConfig
+                // Iterate over the implementation dependencies (we don't want the test ones), adding a <dependency> node for each
+                //android gradle 3.0 use implementation
+                configurations.implementation.allDependencies.each {
+                    // Ensure dependencies such as fileTree are not included.
+                    logger.log(LogLevel.ERROR,"allDependencies.each:====>"+it.toString()+"\n")
+
+                    if (it.name != 'unspecified') {
+                        logger.log(LogLevel.ERROR,"allDependencies.each: !unspecified: "+it.name+"\n")
+                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                        dependencyNode.appendNode('groupId', it.group)
+                        dependencyNode.appendNode('artifactId', it.name)
+                        dependencyNode.appendNode('version', it.version)
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+repositories {
+    mavenCentral()
 }
