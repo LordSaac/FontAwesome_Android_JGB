@@ -17,91 +17,109 @@
  <h1 align="left"> Kotlin Code </h1>
  
  <h4> - TextView</h4>
- <code>
+ 
+  ```Kotlin
+  
+ 
  yourTextView.setTextFontAwesome("camera")
  yourTextView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
-</code>
+ 
+ ```
  <h4> - EditText</h4>
- <code>
+ 
+ ```Kotlin
+ 
  yourEditView.setTextFontAwesome("atom",JGBFontManager.Companion.FAwesomeType.BRANDS)
  yourEditView.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-  </code>
+ 
+ ```
+ 
  <h4> - Button</h4>
-  <code>
+ 
+ ```Kotlin
  yourButton.setTextFontAwesome("android")
  yourButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
- </code>
+ ```
+ 
  <h4> - Swictht</h4>
-  <code>
+ 
+  ```Kotlin
+  
  yourSwich.setTextFontAwesome("anchor")
  yourSwich.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
- </code>
+ 
+ ```
+ 
  <h4> - CheckBox</h4>
-  <code>
+ 
+  ```Kotlin
+ 
  yourCheckBox.setTextFontAwesome("exclamation-circle")
  yourCheckBox.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-  </code>
+ 
+ ```
+   
 <h4> - ToggleButton</h4>
- <code>
+
+ ```Kotlin
+ 
  yourToggleButton.setTextFontAwesome("angellist")
  yourToggleButton.setTextFontAwesome("acquisitions-incorporated",JGBFontManager.Companion.FAwesomeType.REGULAR)
-  </code>
+ 
+ ```
  <br>
 <h1 align="left"> Java Code </h1>
  <h4>- TextView</h4>
-  <code>
-  FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
+ 
+ ```Java
+ 
+ FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView).setText("user")
   FontIconIGB.Companion.setTextFontAwesome_Text_View(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-  </code>
+ 
+ ```
+ 
  <h4>- EditText</h4>
-  <code>
+ 
+   ```Java
+   
   FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourEditText).setText("user")
  FontIconIGB.Companion.setTextEditFontAwesome_Edit_Text(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-  </code>
+ 
+ ```
  <h4>- Button</h4>
-  <code>
+ 
+   ```Java
+   
   FontIconIGB.Companion.setTextEditFontAwesome_Button(yourButton).setText("user")
   FontIconIGB.Companion.setTextEditFontAwesome_Button(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
- </code>
+  
+ ```
  <h4>- Swictht</h4>
-  <code>
+ 
+ ```Java
+ 
   FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourSwicht).setText("user")
    FontIconIGB.Companion.setTextSwitchFontAwesome_Switch(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
-    </code>
+   
+ ```
  <h4>- CheckBox</h4>
-  <code>
+ 
+```Java
+
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourCheckBox).setText("user")
   FontIconIGB.Companion.setTextCheckBoxFontAwesome_CheckBox(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
- </code>
+  
+ ```
 
 <h4>- ToggleButton</h4>
- <code>
-   FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))           FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourTextView,JGBFontManager.Companion.FAwesomeType.BRANDS).setText("user")
- </code>
+
+```Java
+
+   FontIconIGB.Companion.setToggleButtonFontAwesome_ToggleButton(yourToggleButton).setText("user"))                
+   
+```
  
-## XML Button & TextView:
-Write the name font in text
 
-    <com.manager.font.fontmanager.ext.FontAwesomeButton
-
-                android:id="@+id/Button2"
-                android:layout_width="match_parent"
-                android:layout_height="fill_parent"
-                android:includeFontPadding="false"
-                android:text="user"
-                android:textSize="30sp"
-                app:fontawesome="user" />
-
-
-    <com.manager.font.fontmanager.ext.FontAwesomeTextView
-
-                android:id="@+id/textEdit"
-                android:layout_width="match_parent"
-                android:layout_height="fill_parent"
-                android:includeFontPadding="false"
-                android:text="bomb" 
-                android:textSize="40sp"
-                app:fontawesome="user" />
                 
                 
 ### For More Icons:
