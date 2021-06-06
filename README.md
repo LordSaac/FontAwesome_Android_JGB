@@ -108,13 +108,31 @@ Write the name font in text
 
 See more icon here: https://fontawesome.com/icons?d=gallery
 
-# Gradle:
+# Gradle Dependency
 
-dependencies {
 
-`implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.5'`
+* Add the JitPack repository to your project's build.gradle file
 
-}
+```
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+* Add the dependency in your app's build.gradle file
+
+```
+    
+    dependencies {
+	       implementation 'com.github.LordSaac:FontAwesome_Android_JGB:v1.1.0'
+	}
+    
+```
+
 # Contribution
 
 You are most welcome to contribute to this project!
