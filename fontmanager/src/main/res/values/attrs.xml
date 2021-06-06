@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="FontAwesomeButton">
-        <attr name= "fontawesome"  />
-    </declare-styleable>
 
-    <declare-styleable name="FontAwesomeTextView">
-        <attr name= "fontawesome"  />
-    </declare-styleable>
 </resources>
