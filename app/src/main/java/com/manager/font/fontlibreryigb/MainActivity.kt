@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         //Todo 'Kotlin Code Compatible with'
 
 
-        
+
 
         //TODO load icon SIMPLE
         tv_icon_three.setTextFontAwesome("d-and-d")
