@@ -115,13 +115,13 @@ dependencies {
 `implementation 'com.manager.font.fontlibreryigb:fontmanager:1.0.5'`
 
 }
-<br>
-<br>
-:coffee: Oh, amazing, I buy you a [coffee](https://paypal.me/LordSaac?locale.x=es_XC)
-<br>
-:star: Do you like library, give it a [star](https://github.com/LordSaac/ProgressLottieIGB)
-<br>
-:raised_hands: Thanks! 
+# Contribution
+
+You are most welcome to contribute to this project!
+
+*  Buy me a  [Coffee](https://paypal.me/LordSaac?locale.x=es_XC)  &nbsp; :coffee:
+
+*  Give me a [Star](https://github.com/LordSaac/ProgressLottieIGB) &nbsp; :star:
 
 
 <h2>FontAwesome Released June 18, 2020</h2>
