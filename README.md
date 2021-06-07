@@ -157,7 +157,7 @@ You are most welcome to contribute to this project!
 
 *  Buy me a  [Coffee](https://paypal.me/LordSaac?locale.x=es_XC)  &nbsp; :coffee:
 
-*  Give me a [Star](https://github.com/LordSaac/ProgressLottieIGB) &nbsp; :star:
+*  Give me a [Star](https://github.com/LordSaac/FontAwesome_Android_JGB) &nbsp; :star:
 
 
 <h2>FontAwesome Released June 18, 2020</h2>
